@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C8BBB022DC89D2D00439390 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8BBB012DC89D2D00439390 /* Quartz.framework */; };
+		0C8BBB0F2DC89D2D00439390 /* FolderPreviewQL.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0C8BBAFF2DC89D2D00439390 /* FolderPreviewQL.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C8BBADF2DC89CA000439390 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C8BBAC82DC89C9F00439390 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C8BBACF2DC89C9F00439390;
+			remoteInfo = FolderPreview;
+		};
+		0C8BBAE92DC89CA000439390 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C8BBAC82DC89C9F00439390 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C8BBACF2DC89C9F00439390;
+			remoteInfo = FolderPreview;
+		};
+		0C8BBB0D2DC89D2D00439390 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C8BBAC82DC89C9F00439390 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C8BBAFE2DC89D2D00439390;
+			remoteInfo = FolderPreviewQL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0C8BBB142DC89D2D00439390 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0C8BBB0F2DC89D2D00439390 /* FolderPreviewQL.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C8BBAD02DC89C9F00439390 /* FolderPreview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FolderPreview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C8BBADE2DC89CA000439390 /* FolderPreviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FolderPreviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C8BBAE82DC89CA000439390 /* FolderPreviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FolderPreviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C8BBAFF2DC89D2D00439390 /* FolderPreviewQL.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FolderPreviewQL.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C8BBB012DC89D2D00439390 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0C8BBB102DC89D2D00439390 /* Exceptions for "FolderPreviewQL" folder in "FolderPreviewQL" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 0C8BBAFE2DC89D2D00439390 /* FolderPreviewQL */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0C8BBAD22DC89C9F00439390 /* FolderPreview */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FolderPreview;
+			sourceTree = "<group>";
+		};
+		0C8BBAE12DC89CA000439390 /* FolderPreviewTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FolderPreviewTests;
+			sourceTree = "<group>";
+		};
+		0C8BBAEB2DC89CA000439390 /* FolderPreviewUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FolderPreviewUITests;
+			sourceTree = "<group>";
+		};
+		0C8BBB032DC89D2D00439390 /* FolderPreviewQL */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0C8BBB102DC89D2D00439390 /* Exceptions for "FolderPreviewQL" folder in "FolderPreviewQL" target */,
+			);
+			path = FolderPreviewQL;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C8BBACD2DC89C9F00439390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C8BBADB2DC89CA000439390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C8BBAE52DC89CA000439390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C8BBAFC2DC89D2D00439390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C8BBB022DC89D2D00439390 /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C8BBAC72DC89C9F00439390 = {
+			isa = PBXGroup;
+			children = (
+				0C8BBAD22DC89C9F00439390 /* FolderPreview */,
+				0C8BBAE12DC89CA000439390 /* FolderPreviewTests */,
+				0C8BBAEB2DC89CA000439390 /* FolderPreviewUITests */,
+				0C8BBB032DC89D2D00439390 /* FolderPreviewQL */,
+				0C8BBB002DC89D2D00439390 /* Frameworks */,
+				0C8BBAD12DC89C9F00439390 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C8BBAD12DC89C9F00439390 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C8BBAD02DC89C9F00439390 /* FolderPreview.app */,
+				0C8BBADE2DC89CA000439390 /* FolderPreviewTests.xctest */,
+				0C8BBAE82DC89CA000439390 /* FolderPreviewUITests.xctest */,
+				0C8BBAFF2DC89D2D00439390 /* FolderPreviewQL.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C8BBB002DC89D2D00439390 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C8BBB012DC89D2D00439390 /* Quartz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C8BBACF2DC89C9F00439390 /* FolderPreview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C8BBAF22DC89CA000439390 /* Build configuration list for PBXNativeTarget "FolderPreview" */;
+			buildPhases = (
+				0C8BBACC2DC89C9F00439390 /* Sources */,
+				0C8BBACD2DC89C9F00439390 /* Frameworks */,
+				0C8BBACE2DC89C9F00439390 /* Resources */,
+				0C8BBB142DC89D2D00439390 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C8BBB0E2DC89D2D00439390 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0C8BBAD22DC89C9F00439390 /* FolderPreview */,
+			);
+			name = FolderPreview;
+			packageProductDependencies = (
+			);
+			productName = FolderPreview;
+			productReference = 0C8BBAD02DC89C9F00439390 /* FolderPreview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C8BBADD2DC89CA000439390 /* FolderPreviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C8BBAF52DC89CA000439390 /* Build configuration list for PBXNativeTarget "FolderPreviewTests" */;
+			buildPhases = (
+				0C8BBADA2DC89CA000439390 /* Sources */,
+				0C8BBADB2DC89CA000439390 /* Frameworks */,
+				0C8BBADC2DC89CA000439390 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C8BBAE02DC89CA000439390 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0C8BBAE12DC89CA000439390 /* FolderPreviewTests */,
+			);
+			name = FolderPreviewTests;
+			packageProductDependencies = (
+			);
+			productName = FolderPreviewTests;
+			productReference = 0C8BBADE2DC89CA000439390 /* FolderPreviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0C8BBAE72DC89CA000439390 /* FolderPreviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C8BBAF82DC89CA000439390 /* Build configuration list for PBXNativeTarget "FolderPreviewUITests" */;
+			buildPhases = (
+				0C8BBAE42DC89CA000439390 /* Sources */,
+				0C8BBAE52DC89CA000439390 /* Frameworks */,
+				0C8BBAE62DC89CA000439390 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C8BBAEA2DC89CA000439390 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0C8BBAEB2DC89CA000439390 /* FolderPreviewUITests */,
+			);
+			name = FolderPreviewUITests;
+			packageProductDependencies = (
+			);
+			productName = FolderPreviewUITests;
+			productReference = 0C8BBAE82DC89CA000439390 /* FolderPreviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		0C8BBAFE2DC89D2D00439390 /* FolderPreviewQL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C8BBB112DC89D2D00439390 /* Build configuration list for PBXNativeTarget "FolderPreviewQL" */;
+			buildPhases = (
+				0C8BBAFB2DC89D2D00439390 /* Sources */,
+				0C8BBAFC2DC89D2D00439390 /* Frameworks */,
+				0C8BBAFD2DC89D2D00439390 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0C8BBB032DC89D2D00439390 /* FolderPreviewQL */,
+			);
+			name = FolderPreviewQL;
+			packageProductDependencies = (
+			);
+			productName = FolderPreviewQL;
+			productReference = 0C8BBAFF2DC89D2D00439390 /* FolderPreviewQL.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C8BBAC82DC89C9F00439390 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					0C8BBACF2DC89C9F00439390 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					0C8BBADD2DC89CA000439390 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 0C8BBACF2DC89C9F00439390;
+					};
+					0C8BBAE72DC89CA000439390 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 0C8BBACF2DC89C9F00439390;
+					};
+					0C8BBAFE2DC89D2D00439390 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 0C8BBACB2DC89C9F00439390 /* Build configuration list for PBXProject "FolderPreview" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C8BBAC72DC89C9F00439390;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0C8BBAD12DC89C9F00439390 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C8BBACF2DC89C9F00439390 /* FolderPreview */,
+				0C8BBADD2DC89CA000439390 /* FolderPreviewTests */,
+				0C8BBAE72DC89CA000439390 /* FolderPreviewUITests */,
+				0C8BBAFE2DC89D2D00439390 /* FolderPreviewQL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C8BBACE2DC89C9F00439390 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C8BBADC2DC89CA000439390 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C8BBAE62DC89CA000439390 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C8BBAFD2DC89D2D00439390 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C8BBACC2DC89C9F00439390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C8BBADA2DC89CA000439390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C8BBAE42DC89CA000439390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C8BBAFB2DC89D2D00439390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C8BBAE02DC89CA000439390 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C8BBACF2DC89C9F00439390 /* FolderPreview */;
+			targetProxy = 0C8BBADF2DC89CA000439390 /* PBXContainerItemProxy */;
+		};
+		0C8BBAEA2DC89CA000439390 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C8BBACF2DC89C9F00439390 /* FolderPreview */;
+			targetProxy = 0C8BBAE92DC89CA000439390 /* PBXContainerItemProxy */;
+		};
+		0C8BBB0E2DC89D2D00439390 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C8BBAFE2DC89D2D00439390 /* FolderPreviewQL */;
+			targetProxy = 0C8BBB0D2DC89D2D00439390 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C8BBAF02DC89CA000439390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0C8BBAF12DC89CA000439390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0C8BBAF32DC89CA000439390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FolderPreview/FolderPreview.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vrushabh.FolderPreview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0C8BBAF42DC89CA000439390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FolderPreview/FolderPreview.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vrushabh.FolderPreview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0C8BBAF62DC89CA000439390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vrushabh.FolderPreviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FolderPreview.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FolderPreview";
+			};
+			name = Debug;
+		};
+		0C8BBAF72DC89CA000439390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vrushabh.FolderPreviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FolderPreview.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FolderPreview";
+			};
+			name = Release;
+		};
+		0C8BBAF92DC89CA000439390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vrushabh.FolderPreviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FolderPreview;
+			};
+			name = Debug;
+		};
+		0C8BBAFA2DC89CA000439390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vrushabh.FolderPreviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FolderPreview;
+			};
+			name = Release;
+		};
+		0C8BBB122DC89D2D00439390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FolderPreviewQL/FolderPreviewQL.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FolderPreviewQL/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FolderPreviewQL;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vrushabh.FolderPreview.FolderPreviewQL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0C8BBB132DC89D2D00439390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FolderPreviewQL/FolderPreviewQL.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FolderPreviewQL/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FolderPreviewQL;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vrushabh.FolderPreview.FolderPreviewQL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C8BBACB2DC89C9F00439390 /* Build configuration list for PBXProject "FolderPreview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C8BBAF02DC89CA000439390 /* Debug */,
+				0C8BBAF12DC89CA000439390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C8BBAF22DC89CA000439390 /* Build configuration list for PBXNativeTarget "FolderPreview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C8BBAF32DC89CA000439390 /* Debug */,
+				0C8BBAF42DC89CA000439390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C8BBAF52DC89CA000439390 /* Build configuration list for PBXNativeTarget "FolderPreviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C8BBAF62DC89CA000439390 /* Debug */,
+				0C8BBAF72DC89CA000439390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C8BBAF82DC89CA000439390 /* Build configuration list for PBXNativeTarget "FolderPreviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C8BBAF92DC89CA000439390 /* Debug */,
+				0C8BBAFA2DC89CA000439390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C8BBB112DC89D2D00439390 /* Build configuration list for PBXNativeTarget "FolderPreviewQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C8BBB122DC89D2D00439390 /* Debug */,
+				0C8BBB132DC89D2D00439390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C8BBAC82DC89C9F00439390 /* Project object */;
+}
