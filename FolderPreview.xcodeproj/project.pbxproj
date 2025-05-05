@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C3C02292DC8B90B00BD6DF0 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3C02282DC8B90B00BD6DF0 /* QuickLook.framework */; };
+		0C3C022C2DC8BA3100BD6DF0 /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 0C3C022B2DC8BA3100BD6DF0 /* ZIPFoundation */; };
+		0C3C022E2DC8BAB200BD6DF0 /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 0C3C022D2DC8BAB200BD6DF0 /* ZIPFoundation */; };
 		0C8BBB022DC89D2D00439390 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8BBB012DC89D2D00439390 /* Quartz.framework */; };
 		0C8BBB0F2DC89D2D00439390 /* FolderPreviewQL.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0C8BBAFF2DC89D2D00439390 /* FolderPreviewQL.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -50,6 +53,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0C3C02282DC8B90B00BD6DF0 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 		0C8BBAD02DC89C9F00439390 /* FolderPreview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FolderPreview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C8BBADE2DC89CA000439390 /* FolderPreviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FolderPreviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C8BBAE82DC89CA000439390 /* FolderPreviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FolderPreviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C3C022E2DC8BAB200BD6DF0 /* ZIPFoundation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,7 +124,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C3C02292DC8B90B00BD6DF0 /* QuickLook.framework in Frameworks */,
 				0C8BBB022DC89D2D00439390 /* Quartz.framework in Frameworks */,
+				0C3C022C2DC8BA3100BD6DF0 /* ZIPFoundation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +159,7 @@
 		0C8BBB002DC89D2D00439390 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0C3C02282DC8B90B00BD6DF0 /* QuickLook.framework */,
 				0C8BBB012DC89D2D00439390 /* Quartz.framework */,
 			);
 			name = Frameworks;
@@ -179,6 +187,7 @@
 			);
 			name = FolderPreview;
 			packageProductDependencies = (
+				0C3C022D2DC8BAB200BD6DF0 /* ZIPFoundation */,
 			);
 			productName = FolderPreview;
 			productReference = 0C8BBAD02DC89C9F00439390 /* FolderPreview.app */;
@@ -247,6 +256,7 @@
 			);
 			name = FolderPreviewQL;
 			packageProductDependencies = (
+				0C3C022B2DC8BA3100BD6DF0 /* ZIPFoundation */,
 			);
 			productName = FolderPreviewQL;
 			productReference = 0C8BBAFF2DC89D2D00439390 /* FolderPreviewQL.appex */;
@@ -287,6 +297,9 @@
 			);
 			mainGroup = 0C8BBAC72DC89C9F00439390;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0C3C022A2DC8BA3100BD6DF0 /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 0C8BBAD12DC89C9F00439390 /* Products */;
 			projectDirPath = "";
@@ -710,6 +723,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0C3C022A2DC8BA3100BD6DF0 /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.19;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0C3C022B2DC8BA3100BD6DF0 /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0C3C022A2DC8BA3100BD6DF0 /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
+		};
+		0C3C022D2DC8BAB200BD6DF0 /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0C3C022A2DC8BA3100BD6DF0 /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0C8BBAC82DC89C9F00439390 /* Project object */;
 }
